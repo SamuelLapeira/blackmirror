@@ -1,0 +1,25 @@
+/***************************************************/
+/*      Style sheet for Black Mirror web site      */
+/*      author: Samuel Lapeira                     */
+/*      version: 1.0                               */
+/*      comments: class proyect 2023-24            */
+/***************************************************/
+
+
+/* Cuando quiero usar una tipografía y asegurarme de que se verá correctamente, suministro tambien por la página el archivo de la fuente, que será .ttf ó .otf*/
+/* 1- Enlazo el archivo descargado */
+/* 2- Utilizar el nombre de la font-family donde quiera usarlo */
+@font-face {    /* Esto no es un selector esto es un enlace */
+        font-family: blackmirror;
+        src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);}
+
+        @font-face {  
+                font-family: textonormal;
+                src: url(../font/NunitoSans-Regular.ttf);}
+
+body {background-color: pink;
+        margin:0;padding: 0;}  /* esto es para quitar el borde por defecto de arriba */
+#wrapper {background-color: white;
+        width: 80%; /* ancho fijado al 80% */
+        margin: auto;} /* centrado automático */
+
